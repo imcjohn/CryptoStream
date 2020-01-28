@@ -1,0 +1,76 @@
+{
+  "name": "cryptostream",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ag-grid-community/all-modules": "^22.1.0",
+    "@ag-grid-community/core": "^22.1.0",
+    "@ag-grid-enterprise/all-modules": "^22.1.0",
+    "@ag-grid-enterprise/core": "^22.1.0",
+    "@quasar/extras": "^1.0.0",
+    "ag-grid-community": "^22.1.0",
+    "apexcharts": "^3.15.2",
+    "canvasjs": "^1.8.3",
+    "core-js": "^3.3.2",
+    "fibers": "^4.0.2",
+    "http-proxy": "^1.18.0",
+    "node-sass": "^4.13.0",
+    "quasar": "^1.0.0",
+    "request": "^2.88.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "serve-handler": "^6.1.2",
+    "vue": "^2.6.10",
+    "vue-apexcharts": "^1.5.2",
+    "vue-property-decorator": "^8.3.0",
+    "websocket": "^1.0.31"
+  },
+  "devDependencies": {
+    "@ag-grid-community/vue": "^22.1.0",
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "ag-grid-community": "^22.1.0",
+    "ag-grid-vue": "^22.1.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-transform-imports": "1.5.0",
+    "css-loader": "^3.4.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "quasar": "^1.4.3",
+    "solclientjs": "^10.3.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "ts-loader": "^6.2.1",
+    "vue-cli-plugin-quasar": "^1.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

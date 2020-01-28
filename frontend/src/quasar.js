@@ -1,0 +1,81 @@
+import Vue from 'vue'
+
+import './styles/quasar.styl'
+import '@quasar/extras/material-icons/material-icons.css'
+import {
+  Quasar,
+  QToggle,
+  QLayout,
+  QHeader,
+  QDrawer,
+  QPageContainer,
+  QPage,
+  QToolbar,
+  QToolbarTitle,
+  QTabs,
+  QTab,
+  QBtn,
+  QBtnDropdown,
+  QIcon,
+  QList,
+  QItem,
+  QItemSection,
+  QTabPanel,
+  QTabPanels,
+  QItemLabel,
+  QDialog,
+  QCard,
+  QCardActions,
+  QCardSection,
+  QInput,
+  QDate,
+  QPopupProxy,
+  QSeparator,
+  QSelect,
+  QTime,
+  QSlider,
+  QBadge,
+  Notify,
+} from 'quasar'
+
+Vue.use(Quasar, {
+  config: {},
+  components: {
+    QTime,
+    QSelect,
+    QDate,
+    QPopupProxy,
+    QCardSection,
+    QInput,
+    QCard,
+    QCardActions,
+    QDialog,
+    QBtnDropdown,
+    QToggle,
+    QTabPanel,
+    QTabPanels,
+    QLayout,
+    QHeader,
+    QDrawer,
+    QPageContainer,
+    QPage,
+    QToolbar,
+    QToolbarTitle,
+    QBtn,
+    QTabs,
+    QTab,
+    QIcon,
+    QList,
+    QItem,
+    QItemSection,
+    QItemLabel,
+    QSeparator,
+    QSlider,
+    QBadge
+  },
+  directives: {
+  },
+  plugins: {
+    Notify
+  }
+ })
