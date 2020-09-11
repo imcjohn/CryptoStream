@@ -18,7 +18,7 @@
     "canvasjs": "^1.8.3",
     "core-js": "^3.3.2",
     "fibers": "^4.0.2",
-    "http-proxy": "^1.18.0",
+    "http-proxy": "^1.18.1",
     "node-sass": "^4.13.0",
     "quasar": "^1.0.0",
     "request": "^2.88.0",
