@@ -19,7 +19,7 @@
     "core-js": "^3.3.2",
     "fibers": "^4.0.2",
     "http-proxy": "^1.18.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "quasar": "^1.0.0",
     "request": "^2.88.0",
     "sass": "^1.23.7",
