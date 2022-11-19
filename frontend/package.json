@@ -34,7 +34,7 @@
     "@ag-grid-community/vue": "^22.1.0",
     "@vue/cli-plugin-babel": "^4.0.0",
     "@vue/cli-plugin-eslint": "^4.0.0",
-    "@vue/cli-service": "^4.0.0",
+    "@vue/cli-service": "^5.0.8",
     "ag-grid-community": "^22.1.0",
     "ag-grid-vue": "^22.1.0",
     "babel-eslint": "^10.0.3",
